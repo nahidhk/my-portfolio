@@ -1,29 +1,122 @@
 body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Reddit Mono", monospace;
 }
 .nav{
+    height: 70px;
     width: 100%;
-    height: 100px;
-    background-color: #ffffffaa;
+    background-color: rgba(0, 0, 0, 0.669);
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
-    z-index: 100;
 }
-.mainbox{
-   width:100% ;
-   background-image: url("img/bg3.png"); 
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
+.main{
+    color: azure;
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/bg.svg");
+    background-size: cover;
 }
-.navimg{
+.logo-box{
+    height: 70px;
+    width: 70px;
     position: absolute;
-    left: 50px;
-    top: 0;
+    left: 30px;
 }
-.navimg img{
-    height: 100px;
+.logo-box img{
+    height: 100%;
+    width: 100%;
 }
+.title{
+   font-size: 90px; 
+   text-align: center;
+ 
+}
+.model{
+    color: #4680ff;
+    
+}
+.cursorx{
+    font-size: 40px;
+}
+.model1{
+    color: blueviolet;
+}
+.code{
+    color: rgb(207, 25, 25);
+}
+.othertx{
+    color: rgb(97, 97, 97);
+    padding-top: 50px;
+}
+.cv-btn{
+    height: 45px;
+    width: 220px;
+    background-color: #4681ff00;
+    color: #4680ff;
+    border: 1px solid #4680ff;
+    font-size: 15pt;
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+.cv-btn:hover{
+    background-color: #4680ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+  
+ /* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    .title{
+        font-size: 60px; 
+        text-align: center;
+      
+     }
+     .cursorx{
+        font-size: 30px;
+    } 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    .title{
+        font-size: 35px; 
+        text-align: center;
+      
+     }
+     .cursorx{
+        font-size: 27px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

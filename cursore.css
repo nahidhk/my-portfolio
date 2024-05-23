@@ -1,0 +1,42 @@
+
+:root {
+	--comfortaa: 'Comfortaa', cursive;
+	--redressed: 'Redressed', cursive;
+  
+  --dark: #1c1c1c;
+  --light: #c4c4c4;
+  --teal: #008080;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.typed-text {
+  color: var(--teal);
+  font-family: "Reddit Mono", monospace;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: var(--teal);
+}
+
+.cursor.blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background: var(--teal);
+  }
+  40%, 50% {
+    background: transparent;
+  }
+}
