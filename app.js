@@ -37,3 +37,14 @@ const type = () => {
 document.addEventListener("DOMContentLoaded", () => {
   type();
 })
+
+
+
+function scrollapki(){
+  document.getElementById("sideapp").style.opacity="1";
+  setTimeout(rgacgniop,1300);
+}
+function rgacgniop(){
+    document.getElementById("sideapp").style.opacity="0.2";
+
+}
