@@ -45,6 +45,16 @@ function scrollapki(){
   setTimeout(rgacgniop,1300);
 }
 function rgacgniop(){
-    document.getElementById("sideapp").style.opacity="0.2";
+    document.getElementById("sideapp").style.opacity="0.3";
 
 }
+
+function newData() {
+  document.getElementById("sideapp").style.opacity="1";
+
+}
+function olddata() {
+  document.getElementById("sideapp").style.opacity="0.3";
+  
+}
+
