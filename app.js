@@ -1,3 +1,7 @@
+
+alert("This website is under construction")
+
+
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
