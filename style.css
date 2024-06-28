@@ -202,8 +202,27 @@ filter: blur(30px);
 border-top-right-radius: 7px;
 
   }
-  
-  
+  .skillboxx{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill{
+    height: 120px;
+    width: 100px;
+    background-color: #1b1b1b;
+    border-radius: 5px;
+   transition: all 0.4s;
+   margin: 5px;
+   
+  }
+ .skill:hover{
+  box-shadow: rgb(0, 0, 255) 0px 50px 100px -20px, rgb(234, 0, 255) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+  .imgicon{
+    height: 60px;
+  }
   
   
  /* On screens that are 992px wide or less, the background color is blue */
@@ -255,6 +274,13 @@ border-top-right-radius: 7px;
   height: 100%;
   padding: 10px;
 }
+.skillboxx{
+  width: 88%;
+  height: auto;
+  display: flex;
+}
+
+
   }
 
 

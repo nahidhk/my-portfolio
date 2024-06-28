@@ -1,5 +1,5 @@
 
-alert("This website is under construction")
+// alert("This website is under construction")
 
 
 const typedText = document.querySelector(".typed-text");
