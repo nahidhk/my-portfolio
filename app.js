@@ -97,15 +97,15 @@ document.getElementById("tools").classList="btn actives";
 }
 
 function setupno1(){
-setTimeout(tools,3000);
-setTimeout(elect,2000);
-setTimeout(prog,1000);
-setTimeout(setupno2,3000);
+setTimeout(tools,15000);
+setTimeout(elect,10000);
+setTimeout(prog,5000);
+setTimeout(setupno2,20000);
 }
 
 function setupno2(){
-  setTimeout(tools,1000);
-  setTimeout(elect,2000);
-  setTimeout(prog,3000);
-  setTimeout(setupno1,3000);
+  setTimeout(tools,5000);
+  setTimeout(elect,10000);
+  setTimeout(prog,15000);
+  setTimeout(setupno1,20000);
 }
