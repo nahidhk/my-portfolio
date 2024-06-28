@@ -62,3 +62,49 @@ function olddata() {
   
 }
 
+var sbox1 = document.getElementById("boxno1");
+var sbox2 = document.getElementById("boxno2");
+var sbox3 = document.getElementById("boxno3");
+
+function prog(){
+sbox1.style.display="flex";
+sbox2.style.display="none";
+sbox3.style.display="none";
+document.getElementById("prog").classList="btn actives";
+document.getElementById("eletic").classList="btn";
+document.getElementById("tools").classList="btn";
+}
+
+function elect(){
+  sbox3.style.display="none";
+  sbox2.style.display="flex";
+sbox1.style.display="none";
+document.getElementById("prog").classList="btn";
+document.getElementById("eletic").classList="btn actives";
+document.getElementById("tools").classList="btn";
+}
+
+function tools(){
+  sbox3.style.display="flex";
+  sbox2.style.display="none";
+sbox1.style.display="none";
+document.getElementById("prog").classList="btn";
+document.getElementById("eletic").classList="btn";
+document.getElementById("tools").classList="btn actives";
+
+}
+
+function setupno1(){
+setTimeout(tools,3000);
+setTimeout(elect,2000);
+setTimeout(prog,1000);
+setTimeout(setupno2,3000);
+}
+
+function setupno2(){
+  setTimeout(tools,1000);
+  setTimeout(elect,2000);
+  setTimeout(prog,3000);
+  setTimeout(setupno1,3000);
+}
+setupno1();

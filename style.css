@@ -1,72 +1,82 @@
-body{
-    margin: 0;
-    font-family: "Reddit Mono", monospace;
-    background-color: #0a0a0a;
+body {
+  margin: 0;
+  font-family: "Reddit Mono", monospace;
+  background-color: #0a0a0a;
 }
 
 
 
-.nav{
+.nav {
   z-index: 100;
-    height: 70px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.669);
-    backdrop-filter: blur(5px);
-    position: fixed;
-    top: 0;
-}
-.main{
-    color: azure;
-    height: 100vh;
-    width: 100%;
-    background-image: url("img/bg.svg");
-    background-size: cover;
-}
-.logo-box{
-    height: 70px;
-    width: 70px;
-    position: absolute;
-    left: 30px;
-}
-.logo-box img{
-    height: 100%;
-    width: 100%;
-}
-.title{
-   font-size: 90px; 
-   text-align: center;
- 
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.669);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
 }
 
-.cursorx{
-    font-size: 40px;
+.main {
+  color: azure;
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/bg.svg");
+  background-size: cover;
 }
-.model1{
-    color: blueviolet;
+
+.logo-box {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  left: 30px;
 }
-.code{
-    color: rgb(207, 25, 25);
+
+.logo-box img {
+  height: 100%;
+  width: 100%;
 }
-.othertx{
-    color: rgb(97, 97, 97);
-    padding-top: 50px;
+
+.title {
+  font-size: 90px;
+  text-align: center;
+
 }
-.cv-btn{
-    height: 45px;
-    width: 220px;
-    background-color: #4681ff00;
-    color: #4680ff;
-    border: 1px solid #4680ff;
-    font-size: 15pt;
-    border-radius: 4px;
-    transition: all 0.7s;
+
+.cursorx {
+  font-size: 40px;
 }
-.cv-btn:hover{
-    background-color: #4680ff;
-    color: #fff;
-    cursor: pointer;
+
+.model1 {
+  color: blueviolet;
 }
-.side-nav{
+
+.code {
+  color: rgb(207, 25, 25);
+}
+
+.othertx {
+  color: rgb(97, 97, 97);
+  padding-top: 50px;
+}
+
+.cv-btn {
+  height: 45px;
+  width: 220px;
+  background-color: #4681ff00;
+  color: #4680ff;
+  border: 1px solid #4680ff;
+  font-size: 15pt;
+  border-radius: 4px;
+  transition: all 0.7s;
+}
+
+.cv-btn:hover {
+  background-color: #4680ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.side-nav {
   padding: 10px;
   opacity: 0.2;
   position: fixed;
@@ -78,34 +88,40 @@ body{
   left: 0;
   background-color: black;
 }
-.side-nav:hover{
+
+.side-nav:hover {
   opacity: 1;
 }
-.side-nav i{
+
+.side-nav i {
   color: #FFFFFF;
   font-size: 30px;
   cursor: pointer;
 }
-.side-nav i:hover{
+
+.side-nav i:hover {
   color: #FF6464;
   font-size: 30px;
-  
+
 }
-.icon-box:hover .side-nav{
+
+.icon-box:hover .side-nav {
   opacity: 1;
 }
-.type-box{
+
+.type-box {
   height: 120px;
   width: 90%;
- 
+
 }
 
 .stage {
- 
+
   display: flex;
   height: 150px;
   width: 100%;
 }
+
 .box {
   align-self: flex-end;
   animation-duration: 2s;
@@ -116,53 +132,71 @@ body{
   width: auto;
   font-size: 50px;
 }
+
 .bounce-3 {
   animation-name: bounce-3;
   animation-timing-function: ease;
 }
+
 @keyframes bounce-3 {
-  0%   { transform: translateY(0); }
-  30%  { transform: translateY(100px); }
-  50%  { transform: translateY(0); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(100px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
-.fine{
-height: 200px;
-width: 100%;
-background-image: url("svg/style.png");
-background-repeat: no-repeat;
-background-size: cover;
-filter: blur(30px);
+.fine {
+  height: 200px;
+  width: 100%;
+  background-image: url("svg/style.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(30px);
 }
 
- 
 
-.hope{
+
+.hope {
   height: auto;
 }
-.abtitle{
+
+.abtitle {
   font-size: 40px;
-  background: -webkit-linear-gradient(to right, #00ffaa, #80ff00); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00ffaa, #80ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #00ffaa, #80ff00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00ffaa, #80ff00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.underline{
-  text-align:center;
+.underline {
+  text-align: center;
   border-bottom: 2px solid transparent;
-  border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+  border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
   border-image-slice: 1;
-  width:100%;
+  width: 100%;
   width: 200px;
 }
-.cp{
+
+.cp {
   display: flex;
   justify-content: center;
 }
-.card{
+
+.card {
   padding: 9px;
   background-color: #4278B9A1;
   width: 700px;
@@ -171,118 +205,90 @@ filter: blur(30px);
   box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
 }
-.boxno1{
+
+.boxno1 {
   height: 320px;
   width: 50%;
 }
-.boxno1 img{
+
+.boxno1 img {
   height: 320px;
   width: 320px;
 }
-  .boxno2 {
-    height: 300px;
-    width: 50%;
-  }
-  .skillbtn{
-        border-bottom: 1px solid #A7A7A7;
 
-    height: 40px;
-    width: 100%;
-  }
-  .btn{
-    border-bottom: 1px solid #4278B900;
-    border-top: 1px solid #A7A7A7;
-    border-left: 1px solid #A7A7A7;
-    border-right: 1px solid #A7A7A7;
-    background-color: #4278B900;
-    height: 40px;
-    width: 100px;
-    color: #FFFFFF;
-    border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-
-  }
-  .skillboxx{
-    width: 600px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .skill{
-    height: 120px;
-    width: 100px;
-    background-color: #1b1b1b;
-    border-radius: 5px;
-   transition: all 0.4s;
-   margin: 5px;
-   
-  }
- .skill:hover{
-  box-shadow: rgb(0, 0, 255) 0px 50px 100px -20px, rgb(234, 0, 255) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
- }
-  .imgicon{
-    height: 60px;
-  }
-  
-  
- /* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 992px) {
-    .title{
-        font-size: 60px; 
-        text-align: center;
-      
-     }
-     .cursorx{
-        font-size: 30px;
-    } 
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-  /* On screens that are 600px wide or less, the background color is olive */
-  @media screen and (max-width: 600px) {
-    .title{
-        font-size: 30px; 
-        text-align: center;
-      
-     }
-     .cursorx{
-        font-size: 25px;
-    }
-    .card{
-  background-color: #4B4B4B;
-  width: 85%;
-  height: auto;
-  border-radius: 7px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  display: block;
+.boxno2 {
+  height: 300px;
+  width: 50%;
 }
-.boxno1{
-  width: 100%
-}
-.boxno2{
+
+.skillbtn {
+  border-bottom: 1px solid #A7A7A7;
+  height: 40px;
   width: 100%;
-  height: 100%;
-  padding: 10px;
 }
-.skillboxx{
-  width: 88%;
+
+.btn {
+  border-bottom: 1px solid #4278B900;
+  border-top: 1px solid #A7A7A7;
+  border-left: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+  background-color: #4278B900;
+  height: 40px;
+  width: 100px;
+  color: #FFFFFF;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+
+}
+
+.skillboxx {
+  width: 600px;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
+.skill {
+  height: 120px;
+  width: 100px;
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  transition: all 0.4s;
+  margin: 5px;
+
+}
+
+.skill:hover {
+  box-shadow: rgb(0, 0, 255) 0px 50px 100px -20px, rgb(234, 0, 255) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.imgicon {
+  height: 60px;
+}
+
+.actives {
+  background-color: #fff;
+  color: #000;
+}
+.vcc{
+  display: none;
+}
+.clr{
+  background-color: #4680ff;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 60px;
+    text-align: center;
 
   }
 
+  .cursorx {
+    font-size: 30px;
+  }
+}
 
 
 
@@ -295,5 +301,42 @@ border-top-right-radius: 7px;
 
 
 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    text-align: center;
+
+  }
+
+  .cursorx {
+    font-size: 25px;
+  }
+
+  .card {
+    background-color: #4B4B4B;
+    width: 85%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: block;
+  }
+
+  .boxno1 {
+    width: 100%
+  }
+
+  .boxno2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .skillboxx {
+    width: 88%;
+    height: auto;
+    display: flex;
+  }
 
 
+}
