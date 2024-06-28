@@ -1,7 +1,9 @@
 
 // alert("This website is under construction")
 
-
+function loadedapp(){
+  setupno1();
+}
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
@@ -107,4 +109,3 @@ function setupno2(){
   setTimeout(prog,3000);
   setTimeout(setupno1,3000);
 }
-setupno1();
