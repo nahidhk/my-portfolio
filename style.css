@@ -401,6 +401,23 @@ n{
     height: auto;
     display: flex;
   }
-
+.contact{
+  height: auto;
+  width: 330px;
+}
+textarea{
+  font-family: "Reddit Mono", monospace;
+  height: 200px;
+  width: 300px;
+  background-color:#ffffff00 ;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  text-align: left;
+margin: 7px;
+outline: none;
+outline-color: none;
+font-size: 21px;
+}
 
 }
