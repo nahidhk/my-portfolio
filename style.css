@@ -3,7 +3,9 @@ body {
   font-family: "Reddit Mono", monospace;
   background-color: #0a0a0a;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 .nav {
@@ -14,6 +16,18 @@ body {
   backdrop-filter: blur(5px);
   position: fixed;
   top: 0;
+}
+
+.fls{
+  height: 100vh;
+}
+.menubr{
+  top: 10px;
+  height: 39px;
+ text-align: right;
+  width: 200%;
+  position: absolute;
+  right: 40px;
 }
 
 .main {
@@ -265,80 +279,108 @@ body {
 .imgicon {
   height: 60px;
 }
-button{
+
+button {
   font-family: "Reddit Mono", monospace;
 }
+
 .actives {
   background-color: #fff;
   color: #000;
 }
-.vcc{
+
+.vcc {
   display: none;
 }
-.clr{
+
+.clr {
   background-color: #4680ff;
 }
-.contact{
+
+.contact {
   height: auto;
   width: 600px;
- 
+
 }
-.rotein{
+
+.rotein {
   display: flex;
   flex-wrap: wrap;
 }
-.less-cont{
+
+.less-cont {
   width: 100%;
  
 }
-label{
+
+label {
   text-align: left;
 }
-input{
+
+input {
   font-family: "Reddit Mono", monospace;
   height: 38px;
   width: 280px;
-  background-color:#ffffff00 ;
+  background-color: #ffffff00;
   border: 1px solid #fff;
   color: #fff;
   border-radius: 4px;
   text-align: center;
-margin: 7px;
-outline: none;
-outline-color: none;
-font-size: 21px;
+  margin: 7px;
+ 
+  outline: none;
+  outline-color: none;
+  font-size: 21px;
 }
-textarea{
+
+textarea {
   font-family: "Reddit Mono", monospace;
   height: 200px;
   width: 584px;
-  background-color:#ffffff00 ;
+  background-color: #ffffff00;
   border: 1px solid #fff;
   color: #fff;
   border-radius: 4px;
   text-align: left;
-margin: 7px;
-outline: none;
-outline-color: none;
-font-size: 21px;
+  margin: 7px;
+  outline: none;
+  outline-color: none;
+  font-size: 21px;
 }
-input::placeholder , textarea::placeholder{
+
+input::placeholder,
+textarea::placeholder {
   padding: 5px;
 }
-n{
+
+n {
   color: red;
 }
-.sendbtn{
+
+.sendbtn {
   box-shadow: 0 0 50px 0 #fff;
   transition: all 0.7s;
 }
-.sendbtn:hover{
+
+.sendbtn:hover {
   background-color: #fff;
   color: #000;
-  box-shadow: 0 0 2px 0 #fff ; 
+  box-shadow: 0 0 2px 0 #fff;
   border-radius: 100px;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* On screens that are 992px wide or less, the background color is blue */
@@ -352,16 +394,24 @@ n{
   .cursorx {
     font-size: 30px;
   }
+  .vccm{
+    display: none;
+  }
+  .menuicon{
+    font-size: 33px;
+    color: #c9c9c9;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    transition: all 0.9s;
+    height: 50px;
+    width: 50px;
+  }
+  .menuicon:hover{
+  background-color: #4680ff;
+  border-radius: 100px;
+  }
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -401,23 +451,44 @@ n{
     height: auto;
     display: flex;
   }
-.contact{
-  height: auto;
-  width: 330px;
-}
-textarea{
-  font-family: "Reddit Mono", monospace;
-  height: 200px;
-  width: 300px;
-  background-color:#ffffff00 ;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 4px;
-  text-align: left;
-margin: 7px;
-outline: none;
-outline-color: none;
-font-size: 21px;
-}
 
+  .contact {
+    height: auto;
+    width: 330px;
+  }
+
+  textarea {
+    font-family: "Reddit Mono", monospace;
+    height: 200px;
+    width: 300px;
+    background-color: #ffffff00;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    text-align: left;
+    margin: 7px;
+    outline: none;
+    outline-color: none;
+    font-size: 21px;
+  }
+input{
+  margin-left: 20px;
+}
+.vccm{
+  display: none;
+}
+.menuicon{
+  font-size: 33px;
+  color: #c9c9c9;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  transition: all 0.9s;
+  height: 50px;
+  width: 50px;
+}
+.menuicon:hover{
+background-color: #4680ff;
+border-radius: 100px;
+}
 }

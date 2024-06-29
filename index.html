@@ -22,6 +22,26 @@
     <div class="logo-box">
       <img src="logo/remove.png" alt="logo">
     </div>
+<div class="menuicon">
+  <i class="bi bi-list"></i>
+</div>
+<div class="menubr vccm">
+  <button onclick="home()" class="sendbtn btn">
+    Home
+  </button>
+  <button onclick="about()" class="sendbtn btn">
+    About Me
+  </button>
+  <button onclick="projict()" class="sendbtn btn">
+   Projict
+  </button>
+  <button onclick="skill()" class="sendbtn btn">
+    Skill
+   </button>
+   <button onclick="contact()" class="sendbtn btn">
+    Contacts
+   </button>
+</div>
 
 
   </nav>
@@ -36,7 +56,7 @@
 
 
 
-  <section class="main">
+  <section id="home" class="main fls">
     <br><br><br><br><br><br><br><br>
     <center>
       <div class="type-box">
@@ -80,7 +100,7 @@
       <div class="model1"></div>
     </div>
 
-    <section class="hope">
+    <section id="about" class="hope">
       <blockquote>
         <br><br>
         <center>
@@ -116,11 +136,10 @@
         </div>
       </div>
 
-
-
+      
     </section>
-    <br><br>
-    <section class="skill-box">
+    <br><br><br>
+    <section id="skill" class="skill-box fls">
       <center>
         <div class="underline">
           <span class="abtitle">Skills </span>
@@ -137,7 +156,7 @@
       </center>
 
       <br><br>
-    <center>
+      <center>
         <div id="boxno1" class="skillboxx animate__fadeIn animate__animated">
           <div class="skill">
             <br>
@@ -212,57 +231,74 @@
             <img class="imgicon" src="https://www.svgrepo.com/show/353985/laravel.svg" alt="icon" srcset="">
             <h2>Laravel</h2>
           </div>
-      
-        <div class="skill">
-          <br>
-          <img class="imgicon" src="https://www.svgrepo.com/show/374175/vue.svg" alt="icon" srcset="">
-          <h2>Vue</h2>
-        </div>
-        
+
+          <div class="skill">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/374175/vue.svg" alt="icon" srcset="">
+            <h2>Vue</h2>
+          </div>
+
         </div>
 
         <!-- boxno2  -->
-       
+
 
         <div id="boxno2" class="skillboxx vcc animate__fadeIn animate__animated">
           <div class="skill">
             <br>
-            <img class="imgicon" src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75"
+              alt="icon" srcset="">
             <h2>IC</h2>
           </div>
           <div class="skill">
             <br>
-            <img class="imgicon" src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75"
+              alt="icon" srcset="">
             <h2>IC Dev</h2>
           </div>
           <div class="skill">
             <br>
-            <img class="imgicon" src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fgeneric-qfn32-qfp32-smd-ic%2Fgeneric-qfn32-qfp32-smd-ic.jpg&w=640&q=75"
+              alt="icon" srcset="">
             <h2>program</h2>
           </div>
           <div class="skill">
             <br>
-            <img class="imgicon" src="https://www.audiophonics.fr/36274-large_default/jantzen-audio-000-1409-4n-copper-air-core-wire-coil-21awg-1mh-34x15mm.jpg" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://www.audiophonics.fr/36274-large_default/jantzen-audio-000-1409-4n-copper-air-core-wire-coil-21awg-1mh-34x15mm.jpg"
+              alt="icon" srcset="">
             <h2>Coil</h2>
           </div>
           <div class="skill">
             <br>
-            <img class="imgicon" src="https://www.dynamicratings.com/wp-content/uploads/2022/01/Transformer-Monitoring-2.png" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://www.dynamicratings.com/wp-content/uploads/2022/01/Transformer-Monitoring-2.png" alt="icon"
+              srcset="">
             <h2>TNSFMR</h2>
           </div>
           <div class="skill">
             <br>
             <img class="imgicon" src="https://www.svgrepo.com/show/315212/battery-full.svg" alt="icon" srcset="">
             <h2>Battry</h2>
-          </div>          <div class="skill">
+          </div>
+          <div class="skill">
             <br>
-            <img class="imgicon" src="https://i5.walmartimages.com/asr/9c66e41e-c8d0-4042-9311-3a1c498d4fa7.2c1204c7b7e1d961915a89d5c6a42a6c.jpeg?odnHeight=612&odnWidth=612&odnBg=fffff" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://i5.walmartimages.com/asr/9c66e41e-c8d0-4042-9311-3a1c498d4fa7.2c1204c7b7e1d961915a89d5c6a42a6c.jpeg?odnHeight=612&odnWidth=612&odnBg=fffff"
+              alt="icon" srcset="">
             <h2>AboMTR</h2>
-          </div>          <div class="skill">
+          </div>
+          <div class="skill">
             <br>
-            <img class="imgicon" src="https://image.winudf.com/v2/image1/Y29tLmxpbmVjb3JwLmxpbmVtYW50aF9pY29uXzE2NzE1MDA1NDFfMDc3/icon.webp?w=140&fakeurl=1&type=.webp" alt="icon" srcset="">
+            <img class="imgicon"
+              src="https://image.winudf.com/v2/image1/Y29tLmxpbmVjb3JwLmxpbmVtYW50aF9pY29uXzE2NzE1MDA1NDFfMDc3/icon.webp?w=140&fakeurl=1&type=.webp"
+              alt="icon" srcset="">
             <h2>LnMn</h2>
-          </div>          <div class="skill">
+          </div>
+          <div class="skill">
             <br>
             <img class="imgicon" src="https://www.svgrepo.com/show/475169/sound.svg" alt="icon" srcset="">
             <h2>Sound</h2>
@@ -298,141 +334,142 @@
             <img class="imgicon" src="https://www.svgrepo.com/show/499814/server.svg" alt="icon" srcset="">
             <h2>SerVer</h2>
           </div>
-        
+
         </div>
 
         <!-- boxno3 -->
         <div id="boxno3" class="skillboxx vcc animate__fadeIn animate__animated">
           <div class="skill">
-           <br>
-             <img class="imgicon" src="https://www.svgrepo.com/show/452210/git.svg" alt="icon" srcset="">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/452210/git.svg" alt="icon" srcset="">
             <h2>Git</h2>
           </div>
           <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/475654/github-color.svg" alt="icon" srcset="">
-             <h2>GitHub</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/475654/github-color.svg" alt="icon" srcset="">
+            <h2>GitHub</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/354128/npm.svg" alt="icon" srcset="">
-             <h2>NPM</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/354128/npm.svg" alt="icon" srcset="">
+            <h2>NPM</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/452129/vs-code.svg" alt="icon" srcset="">
-             <h2>VSCode</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/452129/vs-code.svg" alt="icon" srcset="">
+            <h2>VSCode</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/355338/ubuntu.svg" alt="icon" srcset="">
-             <h2>Ubuntu</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/355338/ubuntu.svg" alt="icon" srcset="">
+            <h2>Ubuntu</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/448236/linux.svg" alt="icon" srcset="">
-             <h2>Linux</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/448236/linux.svg" alt="icon" srcset="">
+            <h2>Linux</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="icon" srcset="">
-             <h2>MySQL</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="icon" srcset="">
+            <h2>MySQL</h2>
+          </div>
+          <div class="skill">
             <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/353401/ant-design.svg" alt="icon" srcset="">
-             <h2>ANT</h2>
-           </div>
-           <div class="skill">
+            <img class="imgicon" src="https://www.svgrepo.com/show/353401/ant-design.svg" alt="icon" srcset="">
+            <h2>ANT</h2>
+          </div>
+          <div class="skill">
             <br>
             <img class="imgicon" src="https://www.svgrepo.com/show/374167/vite.svg" alt="icon" srcset="">
             <h2>Vite</h2>
           </div>
-         
-           <div class="skill">
-            <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/353486/bitbucket.svg" alt="icon" srcset="">
-             <h2>BitbKet</h2>
-           </div>
-
-           <div class="skill">
-            <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/353785/gitlab.svg" alt="icon" srcset="">
-             <h2>GITLAB</h2>
-           </div>
-           <div class="skill">
-            <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/354110/netlify.svg" alt="icon" srcset="">
-             <h2>Netlify</h2>
-           </div>
-
-           <div class="skill clr">
-            <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/354513/vercel-icon.svg" alt="icon" srcset="">
-             <h2>VERCEL</h2>
-           </div>
-           
-         
-
 
           <div class="skill">
             <br>
-              <img class="imgicon" src="https://asfakahmed.netlify.app/assets/swiperjs-ccd82f2f.png" alt="icon" srcset="">
-             <h2>Swierjs</h2>
-           </div>
-           
-    
-
-
-          <div class="skill">
-            <br>
-              <img class="imgicon" src="https://www.svgrepo.com/show/331309/binance.svg" alt="icon" srcset="">
-             <h2>Binance</h2>
-           </div>
-           
-         
-
+            <img class="imgicon" src="https://www.svgrepo.com/show/353486/bitbucket.svg" alt="icon" srcset="">
+            <h2>BitbKet</h2>
           </div>
-      </center>
 
+          <div class="skill">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/353785/gitlab.svg" alt="icon" srcset="">
+            <h2>GITLAB</h2>
+          </div>
+          <div class="skill">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/354110/netlify.svg" alt="icon" srcset="">
+            <h2>Netlify</h2>
+          </div>
+
+          <div class="skill clr">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/354513/vercel-icon.svg" alt="icon" srcset="">
+            <h2>VERCEL</h2>
+          </div>
+
+
+
+
+          <div class="skill">
+            <br>
+            <img class="imgicon" src="https://asfakahmed.netlify.app/assets/swiperjs-ccd82f2f.png" alt="icon" srcset="">
+            <h2>Swierjs</h2>
+          </div>
+
+
+
+
+          <div class="skill">
+            <br>
+            <img class="imgicon" src="https://www.svgrepo.com/show/331309/binance.svg" alt="icon" srcset="">
+            <h2>Binance</h2>
+          </div>
+
+
+
+        </div>
+      </center>
+      <br><br><br>
     </section>
-<br><br><br>
-<center>
-    <section class="contact">
-      
+    <br><br><br>
+    <center>
+      <section id="contact" class="contact fls">
+
 
         <div class="underline">
           <span class="abtitle">Contacts</span>
         </div>
 
-<div class="less-cont">
-<form action="#" method="post">
-  <div class="rotein">
-    <div>
-  <label for="name"></label><br>
-  <input name="name" type="text" placeholder="Name"/><br> 
-  </div>
-  <div>
-  <label for="email"></label><br>
-  <input name="email" type="email" placeholder="@Email"/><br> 
-</div>
-</div>
-<label for="message"></label>
-<textarea name="message" placeholder="Message" id=""></textarea><br><br>
-<button type="submit" class="sendbtn btn">SEND</button><div ></div>
-</form>
-</div>
+        <div class="less-cont">
+          <form action="https://formsubmit.co/nahidhk2007@gmail.com" method="post">
+            <div class="rotein">
+              <div>
+                <label for="name"></label><br>
+                <input name="name" type="text" placeholder="Name" /><br>
+              </div>
+              <div>
+                <label for="email"></label><br>
+                <input name="email" type="email" placeholder="@Email" /><br>
+              </div>
+            </div><br>
+            <label for="message"></label>
+            <textarea name="message" placeholder="Message" id=""></textarea><br><br>
+            <button type="submit" class="sendbtn btn">SEND</button>
+            <div></div>
+          </form>
+        </div>
 
 
 
 
 
-    </section>
+      </section>
 
-  </center>
+    </center>
 
 
-<section style="height: 100vh;"></section>
+    <section style="height: 100vh;"></section>
 
     <script src="app.js"></script>
 </body>

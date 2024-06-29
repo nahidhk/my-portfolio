@@ -109,3 +109,19 @@ function setupno2(){
   setTimeout(prog,15000);
   setTimeout(setupno1,20000);
 }
+
+function home(){
+  window.location.href="#home";
+}
+function about(){
+  window.location.href="#about";
+}
+function skill(){
+  window.location.href="#skill";
+}
+function projict(){
+  window.location.href="#projict";
+}
+function contact(){
+  window.location.href="#contact";
+}
