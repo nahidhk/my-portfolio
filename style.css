@@ -24,7 +24,7 @@ html {
 }
 
 .menubr {
-  top: 10px;
+  top: 15px;
   height: 39px;
   text-align: right;
   width: 200%;
@@ -371,6 +371,24 @@ n {
   border-radius: 100px;
   cursor: pointer;
 }
+.navbtn{
+  height: 35px;
+  width: 100px;
+background-color: #00000000;
+border: 1px solid #ffffff00;
+color: #fff;
+border-radius: 4px;
+box-shadow: 0 0 100px 0  #ffffff;
+transition: all 0.6s;
+
+}
+.navbtn:hover{
+  border-radius: 100px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 1px 0 #fff;
+  cursor: pointer;
+}
 
 
 
@@ -500,6 +518,20 @@ n {
     border-radius: 100px;
   }
  
- 
+ .navbtn{
+  margin: 10px;
+  width: 90%;
+  border-bottom: 1px solid #636363;
+  box-shadow: 0 0 1px 0 ;
+ }
+ .menubr{
+  display: block;
+  width: 100%;
+ height: 100vh;
+ background-color: green;
+ position: fixed;
+ top: 0;
+ left: 0;
+ }
  
 }
