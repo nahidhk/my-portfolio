@@ -125,3 +125,34 @@ function projict(){
 function contact(){
   window.location.href="#contact";
 }
+
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('my-cache').then(function(cache) {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        'logo/remove.png',
+        'logo/remove.png'
+      ]);
+    })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
+    })
+  );
+});
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+      console.log('Service Worker registered with scope:', registration.scope);
+    }, function(error) {
+      console.log('Service Worker registration failed:', error);
+    });
+  });
+}

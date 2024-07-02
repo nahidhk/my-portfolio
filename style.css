@@ -3,7 +3,8 @@ body {
   font-family: "Reddit Mono", monospace;
   background-color: #0a0a0a;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -18,13 +19,14 @@ html{
   top: 0;
 }
 
-.fls{
+.fls {
   height: 100vh;
 }
-.menubr{
+
+.menubr {
   top: 10px;
   height: 39px;
- text-align: right;
+  text-align: right;
   width: 200%;
   position: absolute;
   right: 40px;
@@ -310,7 +312,7 @@ button {
 
 .less-cont {
   width: 100%;
- 
+
 }
 
 label {
@@ -327,7 +329,7 @@ input {
   border-radius: 4px;
   text-align: center;
   margin: 7px;
- 
+
   outline: none;
   outline-color: none;
   font-size: 21px;
@@ -382,7 +384,6 @@ n {
 
 
 
-
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .title {
@@ -394,10 +395,12 @@ n {
   .cursorx {
     font-size: 30px;
   }
-  .vccm{
+
+  .vccm {
     display: none;
   }
-  .menuicon{
+
+  .menuicon {
     font-size: 33px;
     color: #c9c9c9;
     position: absolute;
@@ -407,9 +410,10 @@ n {
     height: 50px;
     width: 50px;
   }
-  .menuicon:hover{
-  background-color: #4680ff;
-  border-radius: 100px;
+
+  .menuicon:hover {
+    background-color: #4680ff;
+    border-radius: 100px;
   }
 }
 
@@ -471,24 +475,44 @@ n {
     outline-color: none;
     font-size: 21px;
   }
-input{
-  margin-left: 20px;
-}
-.vccm{
-  display: none;
-}
-.menuicon{
-  font-size: 33px;
-  color: #c9c9c9;
-  position: absolute;
-  right: 10px;
-  top: 13px;
-  transition: all 0.9s;
-  height: 50px;
-  width: 50px;
-}
-.menuicon:hover{
-background-color: #4680ff;
-border-radius: 100px;
-}
+
+  input {
+    margin-left: 20px;
+  }
+
+  .vccm {
+    display: none;
+  }
+
+  .menuicon {
+    font-size: 33px;
+    color: #c9c9c9;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    transition: all 0.9s;
+    height: 50px;
+    width: 50px;
+  }
+
+  .menuicon:hover {
+    background-color: #4680ff;
+    border-radius: 100px;
+  }
+  .mbn {
+    height: 100vh;
+    width: 100%;
+    background-color: #ff0000;
+    backdrop-filter: blur(6px);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    
+  }
+  .menubr{
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+ 
 }
