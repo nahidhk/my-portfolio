@@ -499,20 +499,7 @@ n {
     background-color: #4680ff;
     border-radius: 100px;
   }
-  .mbn {
-    height: 100vh;
-    width: 100%;
-    background-color: #ff0000;
-    backdrop-filter: blur(6px);
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    
-  }
-  .menubr{
-    display: block;
-    height: 100vh;
-    width: 100%;
-  }
+ 
+ 
  
 }
