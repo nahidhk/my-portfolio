@@ -24,11 +24,11 @@
     <div class="logo-box">
       <img src="logo/remove.png" alt="logo">
     </div>
-    <div class="menuicon">
+    <div onclick="onmenu()" class="menuicon">
       <i class="bi bi-list"></i>
     </div>
     <div class="mbn">
-      <div class="menubr">
+      <div id="mcb" class="menubr vccm">
         <button onclick="home()" class="navbtn">
           Home
         </button>
@@ -44,7 +44,7 @@
         <button onclick="contact()" class="navbtn">
           Contacts
         </button>
-        <button  class="navbtn vcc">Close</button>
+        <button id="menunavback" onclick="menunavback()" class="navbtn vcc">Close</button>
       </div>
     </div>
 
@@ -86,7 +86,7 @@
           </span><span class="code">/></span>
         </p>
       </div>
-
+      <br><br><br>
       <div class="othertx">
         <p>I basically started researching Electrical from 2017 <br>
           and 2021 in web development sector.</p>
@@ -472,7 +472,33 @@
     </center>
 
 
-    <section style="height: 100vh;"></section>
+    <section class="foter">
+
+      <img style="height: 90px;" src="logo/remove.png" alt="logo">
+      <br>
+      <address>
+        Bhabnipur,Ataikula-6601,Pabna,Rajshahi<br>
+        Bangladesh
+      </address><br>
+      <div class="fotericon">
+        <a href="https://www.facebook.com/nahid.hk.bd" target="_blank">
+          <i class="bi bi-facebook"></i>&nbsp;
+        </a>
+        <a href="https://www.github.com/nahidhk" target="_blank">
+        <i class="bi bi-github"></i>&nbsp;
+        </a>
+        <a href="https://www.x.com/nahidhk0" target="_blank">         
+        <i class="bi bi-twitter-x"></i>&nbsp;
+        </a>
+        <a href="https://www.linkedin.com/in/nahidhk" target="_blank">
+        <i class="bi bi-linkedin"></i>&nbsp;
+        </a>
+        <a href="" target="_blank">
+        <i class="bi bi-telegram"></i>&nbsp;
+        </a>
+      </div>
+
+    </section>
 
     <script src="app.js"></script>
 </body>

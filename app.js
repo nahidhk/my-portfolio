@@ -126,6 +126,15 @@ function contact(){
   window.location.href="#contact";
 }
 
+function onmenu(){
+ document.getElementById("mcb").style.display="block";
+ document.getElementById("menunavback").style.display="block";
+}
+function menunavback(){
+  document.getElementById("mcb").style.display="none";
+  document.getElementById("menunavback").style.display="none";
+}
+
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('my-cache').then(function(cache) {
