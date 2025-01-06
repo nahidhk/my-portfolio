@@ -7,7 +7,7 @@ function loadedapp(){
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const textArray = ["a Student .","Web Developer .", "Electric Circuit Development.", "Canva Design .", "Python Machine Learning .","Technical .","Digital Technology Management."];
+const textArray = ["Student .","Web Developer .", "Electric Circuit Development.", " Designer .","Technical .","Digital Technology Management."];
 
 let textArrayIndex = 0;
 let charIndex = 0;
