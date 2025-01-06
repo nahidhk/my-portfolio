@@ -86,29 +86,9 @@ document.getElementById("eletic").classList="btn actives";
 document.getElementById("tools").classList="btn";
 }
 
-function tools(){
-  sbox3.style.display="flex";
-  sbox2.style.display="none";
-sbox1.style.display="none";
-document.getElementById("prog").classList="btn";
-document.getElementById("eletic").classList="btn";
-document.getElementById("tools").classList="btn actives";
 
-}
 
-function setupno1(){
-setTimeout(tools,15000);
-setTimeout(elect,10000);
-setTimeout(prog,5000);
-setTimeout(setupno2,20000);
-}
 
-function setupno2(){
-  setTimeout(tools,5000);
-  setTimeout(elect,10000);
-  setTimeout(prog,15000);
-  setTimeout(setupno1,20000);
-}
 
 function home(){
   window.location.href="#home";
