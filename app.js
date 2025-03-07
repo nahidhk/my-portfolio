@@ -7,7 +7,7 @@ function loadedapp(){
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const textArray = ["Student .","Web Developer .", "Electric Circuit Development.", " Designer .","Technical .","Digital Technology Management."];
+const textArray = ["Web Developer", "Technology Dependent Student" , "Arduino Projects programer"];
 
 let textArrayIndex = 0;
 let charIndex = 0;
@@ -17,7 +17,7 @@ const erase = () => {
     cursor.classList.remove('blink');
     typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
     charIndex--;
-    setTimeout(erase, 80);
+    setTimeout(erase, 100);
   } else {
     cursor.classList.add('blink');
     textArrayIndex++;
