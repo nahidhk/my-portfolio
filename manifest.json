@@ -1,6 +1,11 @@
 {
-    "name": "Crypto Cash P2P",
-    "short_name": "Crypto Cash P2P",
+    "name": "Nahid TDx",
+    "short_name": "Nahid TDx",
+    "description": "Nahid TDx is a web developer",
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/",
+    "orientation": "portrait",
     "icons": [
       {
         "src": "logo/remove.png",
